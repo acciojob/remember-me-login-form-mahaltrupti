@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+ body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            flex-direction: column;
+        }
+        .container {
+            background-color: white;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 1em;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 0.8em;
+            box-sizing: border-box;
+        }
+        #submit, #existing {
+            width: 100%;
+            padding: 0.8em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            color: white;
+            font-size: 1em;
+            margin-top: 0.5em;
+        }
+        #submit {
+            background-color: #007BFF;
+        }
+        #submit:hover {
+            background-color: #0056b3;
+        }
+        #existing {
+            background-color: #28a745;
+        }
+        #existing:hover {
+            background-color: #218838;
+        }
+        #existing {
+            display: none; /* This button is hidden by default */
+        }
+        label[for="checkbox"] {
+            display: block;
+            margin-top: 1em;
+        }
+    </style>
